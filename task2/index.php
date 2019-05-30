@@ -56,5 +56,8 @@ $arr = [
         'count' => 4
     ],
 ];
-//еще не сделала
+$price = array_column($arr, 'price');//вернет массив 'price'
+array_multisort($arr, SORT_ASC, $price);
+var_dump($arr);
+
 
