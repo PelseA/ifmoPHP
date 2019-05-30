@@ -104,3 +104,22 @@ function max_sum_in_array($func, ...$array){
     return $max_val;
 }
 max_sum_in_array($print_sum_and_array, $array1, $array2, $array3, $array4, $array5);
+//Дополнительная №2
+//Дан массив, состоящий из целых чисел. Выполнить сортировку массива по возрастанию суммы цифр чисел.
+//Например, дан массив [13, 55, 100]. После сортировки он будет следующего вида: [100, 13, 55],
+//тк сумма цифр числа 100 = 1, сумма цифр числа 13 = 4, а 55 = 10.
+//На экран вывести исходный массив, массив после сортировки и сумму цифр каждого
+//числа отсортированного массива.
+$array = [13, 55, 100];
+function sort_by_sum($array){
+    var_dump('Исходный массив: ', $array);
+    foreach ($array as $every){
+        $every_sum[] = array_sum(str_split($every));
+    }
+    $arr_with_keys = array_combine($array, $every_sum);
+    asort($arr_with_keys);//отсортирует сохраняя ключи ИЗМЕНИТ массив $arr_with_keys
+    var_dump('Суммы цифр каждого числа массива: ', $arr_with_keys);
+    $sorted_array = array_keys($arr_with_keys);
+    var_dump('Отсортированный массив: ', $sorted_array);
+}
+sort_by_sum($array);
