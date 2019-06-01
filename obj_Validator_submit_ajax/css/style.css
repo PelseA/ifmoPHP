@@ -1,0 +1,11 @@
+
+.message_error{
+    color: red;
+}
+div{
+    margin: 5px;
+    padding: 5px;
+}
+.message_success{
+    color: limegreen;
+}
