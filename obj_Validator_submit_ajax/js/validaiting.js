@@ -65,8 +65,7 @@ function ajaxHandler(event){
         console.log(form_data);
         let xhr = new XMLHttpRequest();//объект запроса
         console.log(xhr);
-        //запрос будет отправлен методом POST на обработчик формы
-        //в данном случае "form_handler.php"
+        //запрос будет отправлен методом POST на обработчик формы formHandler.php
         xhr.open("POST", this.action, true);
         xhr.send(form_data);
         xhr.onload = function(event){
@@ -78,18 +77,18 @@ function ajaxHandler(event){
     }
 
 }
-function message_success(){
+function message_success(text){
     //выведем сообщение для пользователя
     let message_success = document.getElementById('message_success');
-    let message = 'Вы зарегистрированы как ';
+    let message = 'Вы зарегистрированы как '+ text;
     let p = document.createElement('p');
     p.classList.add('message_success');
     p.innerText = message;
     message_success.appendChild(p);
 }
 
-function responseHandler(text){//text - который откуда???
-    message_success();
+function responseHandler(text){//text - который откуда??? из echo formHandler.php?
+    message_success(text);
     console.log('ответ сервера: ' + text);
 }
 
