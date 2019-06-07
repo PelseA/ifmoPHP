@@ -4,7 +4,21 @@
 //и на этой-->    https://www.php.net/manual/en/function.explode.php
 $post = $_POST;
 $link = $post['link'];
-
+//проверка уникальности короткой ссылки
+function match_short_link($short_link, $long_link, $file){
+    $all_links = file($file, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+    for($i = 0; $i < count($all_links); $i++){
+        if($long_link !== explode(';', $all_links[$i])[0] &&
+            $short_link == explode(';', $all_links[$i])[1]){
+            //прибавим к ссылке 'хвостик'
+            $short_link1 = $short_link.'go';
+            match_short_link($short_link1, $long_link, $file);
+            return $short_link1;
+        }else{
+            return $short_link;
+        }
+    }
+}
 //обработка полученной длинной ссылки $link
 function create_short_link($link){
     $long_link = rawurldecode($link);//если encode
@@ -16,32 +30,36 @@ function create_short_link($link){
     $link = crc32($link);
     //приклеим хэш к имени сайта
     $short_link = $site_name .'/'. $link;
+    //проверим уникальность короткой ссылки
+    $file = 'link.csv';
+    $short_link = match_short_link($short_link, $long_link, $file);
     return [$long_link, $short_link];
 }
 //запишем ссылки в файл и время создания
-function add_links($long_link, $short_link){
+function add_link($long_link, $short_link){
     //время создания
     $time_create = date('H:m:s');
     $data = $long_link . ';' . $short_link .';'. $time_create . "\n";
-    file_put_contents('link.csv', $data, FILE_APPEND | LOCK_EX);
+    file_put_contents('link.csv', $data, FILE_APPEND);
     return true;
 }
+
 //проверим, есть ли в файле эти ссылки
 function match_link($link){
     //получим строки из файла
     $arr_links = file('link.csv', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
     for($i = 0; $i < count($arr_links); $i++){
-        $long_l = explode(';', $arr_links[$i])[0];
-        if($long_l == rawurldecode($link)){
+        $long_l = (explode(';', $arr_links[$i]))[0];
+        if($long_l !== rawurldecode($link)) {
             //такая ссылка есть->отдаем короткую ссылку
-            $short_l = explode(';',$arr_links[$i])[1];
-            $mess = 'уже была сгенерирована '. $short_l;
+            $short_l = (explode(';', $arr_links[$i]))[1];
+            $mess = 'уже была сгенерирована ' . $short_l;
             return $mess;
         }else{
-            //то запишем их в файл
+            //то запишем их в файл add_link()
             $long_link = create_short_link($link)[0];
             $short_link = create_short_link($link)[1];
-            if(add_links($long_link, $short_link)) {
+            if(add_link($long_link, $short_link)) {
                 $mess = 'только что сгенерирована ' . $short_link;
                 return $mess;
             }
@@ -61,9 +79,10 @@ function explode_time($time){
 function regenerate_link($file){
     $all_links = file($file, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
     for($i = 0; $i < count($all_links); $i++){
-        $time = explode_time(explode(';', $all_links)[2]);
+        $time = explode_time(explode(';', $all_links[$i])[2]);
         $time_now = explode_time(date('H:m:s'));
-        if($time[0] !== $time_now[0] || $time[1]+5 > $time_now[1]){
+        if(($time[0] == $time_now[0] && $time[1]+5 > $time_now[1]) ||
+                $time[0] !== $time_now[0]){
             //перегенерируем ссылку
             $short_link = explode(';', $all_links[$i])[1];
             $site_name = explode('/', $short_link)[0];
@@ -77,6 +96,7 @@ function regenerate_link($file){
             $all_links[$i] = $data;
             //и перезапишем файл
             file_put_contents($file, $all_links);
+            //return true;
         }
     }
 }

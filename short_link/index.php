@@ -9,8 +9,9 @@
 </head>
 <body>
 <form name="form_link" method="POST" action="link_handle.php">
-    <input type="url" name="link" placeholder="введите ссылку">
+    <input id="link" type="url" name="link" placeholder="введите ссылку">
     <input type="submit" value="Получить короткую ссылку">
+    <input id="clearing" type="button" value="Очистить поле">
 </form>
 <div id="message_success"></div>
 <script src="js/validating.js"></script>

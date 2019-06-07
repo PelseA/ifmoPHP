@@ -1,4 +1,11 @@
 console.log("Подключен validating.js");
+//очистить поле ввода
+let clear_btn = document.getElementById("clearing");
+clear_btn.addEventListener('click', clearing);
+function clearing(){
+    let link = document.getElementById("link");
+    link.value = '';
+}
 
 let form = document.forms.form_link;
 //Отправка без перезагрузки ajax-запросом И ответ сервера
@@ -21,6 +28,7 @@ function ajaxHandler(event) {
     }
 }
 function message_success(text){
+    console.log(text);
     //выведем сообщение для пользователя
     let message_success = document.getElementById('message_success');
     let message = 'Ваша ссылка '+ text;
