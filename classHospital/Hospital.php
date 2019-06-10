@@ -29,6 +29,6 @@ class Hospital
 
     }
     public function listDoctors(){
-        
+
     }
 }
