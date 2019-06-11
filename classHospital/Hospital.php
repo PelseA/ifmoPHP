@@ -10,6 +10,7 @@
 class Hospital
 {
     private $name;
+    private $patients = [];
 
     public function getName()
     {
@@ -25,10 +26,18 @@ class Hospital
         $this->name = $name;
     }
 
-    public function listPatients(){
-
+    public function addPatient(Patient $patient){
+        if($patient->getHospitalName() != $this->getName()) {
+            echo "Этот пациент не регистрировался в данной лечебнице";
+        }
+        array_push($this->patients, $patient);
     }
-    public function listDoctors(){
+
+    public function getPatients(){
+        var_dump($this->patients);
+        return $this->patients;
+    }
+    public function getDoctors(){
 
     }
 }

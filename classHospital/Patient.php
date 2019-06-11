@@ -2,7 +2,17 @@
 class Patient
 {
     private $name = null;
-
+    public function __construct(Hospital $hospital){
+        $this->hospitalName = $hospital->getName();
+    }
+    public function getHospitalName()
+    {
+        return $this->hospitalName;
+    }
+    public function setHospitalName(Hospital $hospital)
+    {
+        $this->hospitalName = $hospital->getName();
+    }
     public function getName()
     {
         return $this->name;

@@ -8,8 +8,10 @@ class HeadDoctor
 {
     private $name = null;
     private $orientation = null;//какой врач: зубной, лор...
-    private $hospitalName = null;
 
+    public function __construct(Hospital $hospital){
+        $this->hospitalName = $hospital->getName();
+    }
     public function getName()
     {
         return $this->name;
@@ -28,16 +30,9 @@ class HeadDoctor
         return $this->hospitalName;
     }
 
-    public function setHospitalName(string $hospitalName)
+    public function setHospitalName(Hospital $hospital)
     {
-        if(!($hospitalName instanceof Hospital)){
-            echo "Такой лечебницы нет";
-        }
-        if(strlen($hospitalName)<8){
-            echo "название лечебницы не менее 8 символов";
-            return;
-        }
-        $this->hospitalName = $hospitalName;
+        $this->hospitalName = $hospital->getName();
     }
 
     public function getOrientation()
