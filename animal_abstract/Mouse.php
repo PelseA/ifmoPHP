@@ -8,7 +8,7 @@ class Mouse extends Animal implements IEated
     }
     public function beFood()
     {
-        echo "Мышка ". $this->getName() . " была съедена ";
+        echo "Мышка ". $this->getName() . " была съедена <br>";
         unset($this);
     }
 

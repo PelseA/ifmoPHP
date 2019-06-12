@@ -9,6 +9,7 @@ class Cat extends Animal implements IEated, IEat
     {
         if($animal !== $this) {
             echo "Кот " . $this->getName() . " съел ".get_class($animal). " по имени " . $animal->getName(). "<br>";
+            $animal->beFood();
         }else{
             echo "Кот не может съесть сам себя<br>";
         }
