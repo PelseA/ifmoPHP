@@ -17,8 +17,10 @@ $mouse = new Mouse("Мышка");
 $mouse->move();
 $dog->move();
 $cat->eat($mouse);
-$cat->eat($cat);
+//$cat->eat($cat); //не сработает т к $cat instanceof Cat
 $dog->eat($cat);
 
 var_dump($cat);
+//$cat->move(); //больше не получится вызвать так как объект съеден
+
 var_dump($mouse);

@@ -5,22 +5,24 @@ require_once "IEat.php";
 
 class Cat extends Animal implements IEated, IEat
 {
-    public function eat(IEated $animal)
+    public function eat(IEated &$animal)
     {
-        if($animal !== $this) {
+        if(!($animal instanceof Cat) && isset($animal) ) {
             echo "Кот " . $this->getName() . " съел ".get_class($animal). " по имени " . $animal->getName(). "<br>";
             $animal->beFood();
-        }else{
-            echo "Кот не может съесть сам себя<br>";
+            $animal = null;
         }
     }
     public function beFood()
     {
         echo "Кот ". $this->getName() . " был съеден <br>";
-        unset($this);
+
+//        foreach($GLOBALS as $key => $value) {
+//            if ($value === $this) {
+//                $GLOBALS[$key] = null;
+//                return;
+//            }
+//        }
     }
-//    public function __destruct()
-//    {
-//        echo "уничтожен";
-//    }
+
 }

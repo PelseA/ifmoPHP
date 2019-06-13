@@ -8,5 +8,5 @@
 
 interface IEat
 {
- public function eat(IEated $animal);
+ public function eat(IEated &$animal);
 }

@@ -7,12 +7,14 @@
 require_once "Animal.php";
 class Dog extends Animal implements IEat
 {
-    public function eat(IEated $animal)
+    public function eat(IEated &$animal)
     {
         echo "Собака ". $this->getName() . " съела " .get_class($animal). " по имени " . $animal->getName(). "<br>";
         $animal->beFood();
-        //$animal->__destruct();
+        $animal = null;
+
     }
 
 
 }
+
