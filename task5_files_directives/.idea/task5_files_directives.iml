@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="lesson5-files" />
+    <orderEntry type="module" module-name="lesson6_7" />
+    <orderEntry type="module" module-name="short_link" />
+    <orderEntry type="module" module-name="object_validator" />
+    <orderEntry type="module" module-name="form" />
+  </component>
+</module>

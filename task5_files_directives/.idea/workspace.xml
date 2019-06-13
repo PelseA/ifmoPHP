@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9f42151d-4349-4617-83e7-61697f8ca3ca" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Common.www/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Common.www/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Common.www/confiq.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Common.www/private/Base/Application.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Common.www/private/Base/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Common.www/private/Base/Cookies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Common.www/private/Base/DBConnection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Common.www/private/Base/Request.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Common.www/private/Base/Response.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Common.www/private/Base/Router.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Common.www/private/Base/Session.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Common.www/private/Controllers/AccountController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Common.www/private/Controllers/ArticlesController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Common.www/private/Controllers/IndexController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Common.www/private/Models/ArticleModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Common.www/private/Models/GoodsModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Common.www/private/Views/account_view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Common.www/private/Views/article_view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Common.www/private/Views/articles.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Common.www/private/Views/cards.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Common.www/private/Views/index_view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Common.www/private/Views/modal.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Common.www/private/Views/template_view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Common.www/public_html/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Common.www/public_html/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Common.www/public_html/static/css/articles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Common.www/public_html/static/css/cards.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Common.www/public_html/static/css/enter_account_modal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Common.www/public_html/static/css/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Common.www/public_html/static/css/slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Common.www/public_html/static/css/tabs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Common.www/public_html/static/img/f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Common.www/public_html/static/img/five.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Common.www/public_html/static/img/fo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Common.www/public_html/static/img/s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Common.www/public_html/static/img/six.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Common.www/public_html/static/img/th.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Common.www/public_html/static/js/cards.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Common.www/public_html/static/js/enter_account_form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Common.www/public_html/static/js/modal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Common.www/public_html/static/js/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Common.www/public_html/static/js/tabs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Common.www/vendor/autoload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Common.www/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Common.www/vendor/composer/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Common.www/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Common.www/vendor/composer/autoload_files.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Common.www/vendor/composer/autoload_namespaces.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Common.www/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Common.www/vendor/composer/autoload_real.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Common.www/vendor/composer/autoload_static.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Common.www/vendor/composer/installed.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Common.www/vendor/nikic/fast-route" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ForProject/dbconfiq.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ForProject/post_question.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ForProject/question_page.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FrontController/private/Base/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FrontController/private/Controllers/GoodsController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FrontController/private/Controllers/IndexController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FrontController/private/Models/GoodsModels.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FrontController/private/Views/goods_view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FrontController/private/Views/index_view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FrontController/private/Views/template_view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FrontController/public_html/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FrontController/public_html/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FrontController/public_html/index_view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MyProjectCopy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MyProjectCopy2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SendQuestion/addToDB.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SendQuestion/dbconfig.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SendQuestion/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../localhost/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../localhost/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mm-loc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../php-task" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../php-trening/Files_multiload/ajax.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../php-trening/Files_multiload/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../php-trening/Files_multiload/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../php-trening/Files_multiload/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../php-trening/Form_ajax/form1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../php-trening/Form_ajax/form2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../php-trening/Form_ajax/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../php-trening/Form_ajax/js/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../php-trening/Form_ajax/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../php-trening/Guest_csv/guest.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../php-trening/Guest_csv/users_data_save.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../php-trening/Guest_csv/помощники-видео.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../php-trening/PDO_trening/dbconfiq.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../php-trening/PDO_trening/prepareQuery.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../php-trening/PDO_trening/query.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../php-trening/Patterns_design/Factory_Strateg_Role/Commentator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../php-trening/Patterns_design/Factory_Strateg_Role/factory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../php-trening/Patterns_design/Factory_Strateg_Role/index-factory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../php-trening/Patterns_design/singleton.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../php-trening/array_functions/pop_push_etc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../php-trening/file_exists/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../php-trening/file_exists/my_file.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../php-trening/functions_exists_ets/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../rainbow" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../rest/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../rest/Api.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../rest/Response.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../rest/RestApi.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../rest/UsersApi.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../rest/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../rest/rest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../rest/rest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../symfony-demo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../travel-blog/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../travel-blog/blog.mwb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../travel-blog/blog.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../travel-blog/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../travel-blog/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../travel-blog/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../travel-blog/private/Base/Application.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../travel-blog/private/Base/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../travel-blog/private/Base/Cookies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../travel-blog/private/Base/DBConnection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../travel-blog/private/Base/Request.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../travel-blog/private/Base/Response.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../travel-blog/private/Base/Router.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../travel-blog/private/Base/Session.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../travel-blog/private/Controllers/AccountController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../travel-blog/private/Controllers/ArticlesController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../travel-blog/private/Controllers/IndexController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../travel-blog/private/Models/AccountModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../travel-blog/private/Models/ArticleModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../travel-blog/private/Models/GoodsModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../travel-blog/private/Views/account_view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../travel-blog/private/Views/article_view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../travel-blog/private/Views/articles.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../travel-blog/private/Views/cards.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../travel-blog/private/Views/index_view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../travel-blog/private/Views/modal.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../travel-blog/private/Views/template_view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../travel-blog/public_html/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../travel-blog/public_html/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../travel-blog/public_html/static/css/articles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../travel-blog/public_html/static/css/cards.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../travel-blog/public_html/static/css/enter_account_modal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../travel-blog/public_html/static/css/slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../travel-blog/public_html/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../travel-blog/public_html/static/css/tabs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../travel-blog/public_html/static/img/f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../travel-blog/public_html/static/img/five.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../travel-blog/public_html/static/img/fo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../travel-blog/public_html/static/img/s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../travel-blog/public_html/static/img/six.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../travel-blog/public_html/static/img/th.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../travel-blog/public_html/static/js/cards.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../travel-blog/public_html/static/js/enter_account_form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../travel-blog/public_html/static/js/libs/anime.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../travel-blog/public_html/static/js/libs/path-slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../travel-blog/public_html/static/js/modal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../travel-blog/public_html/static/js/sendForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../travel-blog/public_html/static/js/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../travel-blog/public_html/static/js/tabs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../travel-blog/travel.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../travel.blog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../obj_Validator_submit_ajax/js/validaiting.js" beforeDir="false" afterPath="$PROJECT_DIR$/../obj_Validator_submit_ajax/js/validaiting.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../short_link/js/validating.js" beforeDir="false" afterPath="$PROJECT_DIR$/../short_link/js/validating.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../short_link/link_handle.php" beforeDir="false" afterPath="$PROJECT_DIR$/../short_link/link_handle.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1882856649">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="8" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.52" value="1" />
+          <entry key="project.open.time.53" value="1" />
+          <entry key="project.open.time.54" value="1" />
+          <entry key="project.open.time.57" value="1" />
+          <entry key="project.open.time.63" value="1" />
+          <entry key="project.open.time.67" value="1" />
+          <entry key="project.open.time.74" value="1" />
+          <entry key="project.opened" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="2" />
+          <entry key="html" value="1" />
+          <entry key="js" value="8" />
+          <entry key="php" value="25" />
+          <entry key="txt" value="15" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="2" />
+          <entry key="HTML" value="1" />
+          <entry key="JavaScript" value="8" />
+          <entry key="PHP" value="25" />
+          <entry key="PLAIN_TEXT" value="15" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="151" />
+          <entry key="html" value="22" />
+          <entry key="js" value="2840" />
+          <entry key="php" value="11377" />
+          <entry key="txt" value="37" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="151" />
+          <entry key="HTML" value="29" />
+          <entry key="JavaScript" value="2840" />
+          <entry key="PHP" value="11370" />
+          <entry key="PLAIN_TEXT" value="37" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/dir1/text1.txt" />
+        <option value="$PROJECT_DIR$/dir1/dir2/dir3/dir4/text1.txt" />
+        <option value="$PROJECT_DIR$/dir1/dir2/dir3/dir4/text2.txt" />
+        <option value="$PROJECT_DIR$/dir1/text.txt" />
+        <option value="$PROJECT_DIR$/dir1/file.txt" />
+        <option value="$PROJECT_DIR$/dir1/dir2/textetx.txt" />
+        <option value="$PROJECT_DIR$/dir1/dir2/dir3/dir4/text.txt" />
+        <option value="$PROJECT_DIR$/dir1/dir2/dir3/dir4/grhhr.txt" />
+        <option value="$PROJECT_DIR$/dir1/dir2/dir3/gg.txt" />
+        <option value="$PROJECT_DIR$/../../php-lessons/lesson5-files/file_system/file.php" />
+        <option value="$PROJECT_DIR$/../../php-lessons/lesson6_7/auth_form/css/style.css" />
+        <option value="$PROJECT_DIR$/../../php-lessons/lesson6_7/auth_form/page.php" />
+        <option value="$PROJECT_DIR$/../../php-lessons/lesson6_7/auth_form/js/form.js" />
+        <option value="$PROJECT_DIR$/../../php-lessons/lesson6_7/auth_form/form_handler.php" />
+        <option value="$PROJECT_DIR$/../../php-lessons/lesson6_7/session/session1.php" />
+        <option value="$PROJECT_DIR$/../../php-lessons/lesson6_7/session/session2.php" />
+        <option value="$PROJECT_DIR$/../short_link/js/validate_link.js" />
+        <option value="$PROJECT_DIR$/../obj_Validator_submit_ajax/index.html" />
+        <option value="$PROJECT_DIR$/../short_link/js/ValidateLink.js" />
+        <option value="$PROJECT_DIR$/../obj_Validator_submit_ajax/js/Validator_form.js" />
+        <option value="$PROJECT_DIR$/../short_link/index.php" />
+        <option value="$PROJECT_DIR$/../short_link/js/validating.js" />
+        <option value="$PROJECT_DIR$/dir1/dir2_1/dir3_1/file.txt" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/../../php-lessons/lesson6_7/session/auth_form/css/style.css" />
+        <option value="$PROJECT_DIR$/../../php-lessons/lesson6_7/session/auth_form/logout.php" />
+        <option value="$PROJECT_DIR$/../../php-lessons/lesson6_7/session/auth_form/accaunt.php" />
+        <option value="$PROJECT_DIR$/../../php-lessons/lesson6_7/session/auth_form/js/form.js" />
+        <option value="$PROJECT_DIR$/../../php-lessons/lesson6_7/session/auth_form/page.php" />
+        <option value="$PROJECT_DIR$/../../php-lessons/lesson6_7/session/auth_form/form_handler.php" />
+        <option value="$PROJECT_DIR$/../short_link/link_handle.php" />
+        <option value="$PROJECT_DIR$/../../php-lessons/lesson6_7/cookie/file.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="task5_files_directives" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task5_files_directives" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task5_files_directives" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task5_files_directives" type="462c0819:PsiDirectoryNode" />
+              <item name="dir1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task5_files_directives" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task5_files_directives" type="462c0819:PsiDirectoryNode" />
+              <item name="dir1" type="462c0819:PsiDirectoryNode" />
+              <item name="dir2_1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task5_files_directives" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task5_files_directives" type="462c0819:PsiDirectoryNode" />
+              <item name="dir1" type="462c0819:PsiDirectoryNode" />
+              <item name="dir2_1" type="462c0819:PsiDirectoryNode" />
+              <item name="dir3_1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task5_files_directives" type="b2602c69:ProjectViewProjectNode" />
+              <item name="obj_Validator_submit_ajax" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task5_files_directives" type="b2602c69:ProjectViewProjectNode" />
+              <item name="obj_Validator_submit_ajax" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task5_files_directives" type="b2602c69:ProjectViewProjectNode" />
+              <item name="short_link" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task5_files_directives" type="b2602c69:ProjectViewProjectNode" />
+              <item name="short_link" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task5_files_directives" type="b2602c69:ProjectViewProjectNode" />
+              <item name="form" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task5_files_directives" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lesson5-files" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task5_files_directives" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lesson5-files" type="462c0819:PsiDirectoryNode" />
+              <item name="file_system" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task5_files_directives" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lesson6_7" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task5_files_directives" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lesson6_7" type="462c0819:PsiDirectoryNode" />
+              <item name="cookie" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task5_files_directives" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lesson6_7" type="462c0819:PsiDirectoryNode" />
+              <item name="session" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task5_files_directives" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lesson6_7" type="462c0819:PsiDirectoryNode" />
+              <item name="session" type="462c0819:PsiDirectoryNode" />
+              <item name="auth_form" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task5_files_directives" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lesson6_7" type="462c0819:PsiDirectoryNode" />
+              <item name="session" type="462c0819:PsiDirectoryNode" />
+              <item name="auth_form" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task5_files_directives" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lesson6_7" type="462c0819:PsiDirectoryNode" />
+              <item name="session" type="462c0819:PsiDirectoryNode" />
+              <item name="auth_form" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../short_link_new" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9f42151d-4349-4617-83e7-61697f8ca3ca" name="Default Changelist" comment="" />
+      <created>1559465429834</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559465429834</updated>
+      <workItem from="1559465432730" duration="12909000" />
+      <workItem from="1559588756651" duration="597000" />
+      <workItem from="1559662917494" duration="10710000" />
+      <workItem from="1559679098522" duration="14921000" />
+      <workItem from="1559805080192" duration="8084000" />
+      <workItem from="1559826304278" duration="4713000" />
+      <workItem from="1559834781211" duration="11366000" />
+      <workItem from="1559930635823" duration="101000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="63401000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24130106" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/dir1/text1.txt" />
+    <entry file="file://$PROJECT_DIR$/dir1/dir2/dir3/dir4/text1.txt" />
+    <entry file="file://$PROJECT_DIR$/dir1/dir2/dir3/dir4/text2.txt" />
+    <entry file="file://$PROJECT_DIR$/dir1/text.txt" />
+    <entry file="file://$PROJECT_DIR$/dir1/file.txt" />
+    <entry file="file://$PROJECT_DIR$/dir1/dir2/textetx.txt" />
+    <entry file="file://$PROJECT_DIR$/dir1/dir2/dir3/dir4/text.txt" />
+    <entry file="file://$PROJECT_DIR$/dir1/dir2/dir3/dir4/grhhr.txt" />
+    <entry file="file://$PROJECT_DIR$/dir1/dir2/dir3/gg.txt" />
+    <entry file="file://$PROJECT_DIR$/../../php-lessons/lesson6_7/auth_form/accaunt.php" />
+    <entry file="file://$PROJECT_DIR$/../../php-lessons/lesson6_7/auth_form/logout.php" />
+    <entry file="file://$PROJECT_DIR$/../../php-lessons/lesson6_7/auth_form/form_handler.php" />
+    <entry file="file://$PROJECT_DIR$/../../php-lessons/lesson6_7/auth_form/css/style.css" />
+    <entry file="file://$PROJECT_DIR$/../../php-lessons/lesson6_7/auth_form/js/form.js" />
+    <entry file="file://$PROJECT_DIR$/../../php-lessons/lesson6_7/auth_form/page.php" />
+    <entry file="file://$PROJECT_DIR$/../short_link/js/validate_link.js" />
+    <entry file="file://$PROJECT_DIR$/../short_link/js/ValidateLink.js" />
+    <entry file="file://$PROJECT_DIR$/../../php-lessons/lesson4-GET-POST/request_response.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../php-lessons/lesson5-files/file_system/file.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="86" selection-start-line="86" selection-end-line="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../short_link/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../obj_Validator_submit_ajax/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../obj_Validator_submit_ajax/formHandler.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dir1/dir2_1/dir3_1/file.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../short_link/js/validating.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../obj_Validator_submit_ajax/js/validaiting.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1326">
+          <caret line="78" column="1" selection-start-line="78" selection-start-column="1" selection-end-line="78" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../obj_Validator_submit_ajax/js/Validator_form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="75" column="5" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../php-lessons/lesson6_7/session/auth_form/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../php-lessons/lesson6_7/session/session2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../php-lessons/lesson6_7/session/session1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../php-lessons/lesson6_7/session/auth_form/form_handler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../php-lessons/lesson6_7/session/auth_form/js/form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-205">
+          <caret line="41" column="37" lean-forward="true" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../short_link/link_handle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="68" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../php-lessons/lesson6_7/session/auth_form/accaunt.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="47" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../php-lessons/lesson6_7/session/auth_form/logout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../php-lessons/lesson6_7/session/auth_form/page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../php-lessons/lesson6_7/cookie/file.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../php-lessons/lesson6_7/cookie/token.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>
