@@ -1,0 +1,23 @@
+Plugin description:
+
+After a customer has clicked on "fast order" (can be placed anywhere)
+he has to find a form that he has to fill out.
+
+The form contains a ordernumber (articlenumber) and a quantity field.
+The form can be dynamic or hardcoded where the customer can buy at least 10 articles in the same time.
+
+After the customer click on “order now” button all articles will be send to the basket
+and the custom will be redirected to the basket.
+
+All articles which were added to the basket must be marked. (Prefix at the name or red
+background or something else)
+
+Key Tasks
+- Create a plugin with all necessary information
+- Create a controller
+which will show and handle the form
+- Create a template with smarty for the form
+- Create a new attribute where u can mark the articles in the basket
+
+
+Bonus:  You can register a less and js file with you plugin and style the form or add some js functions.
