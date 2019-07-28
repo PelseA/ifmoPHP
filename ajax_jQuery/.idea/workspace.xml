@@ -1,0 +1,878 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e97342e5-cc62-4f7e-9feb-435c27d3d8d7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../MyProject/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/confiq.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/private/Base/Application.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/private/Base/Controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/private/Base/Cookies.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/private/Base/DBConnection.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/private/Base/Request.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/private/Base/Response.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/private/Base/Router.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/private/Base/Session.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/private/Controllers/AccountController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/private/Controllers/CategoriesController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/private/Controllers/FactsController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/private/Controllers/IndexController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/private/Controllers/InfoController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/private/Models/AccountModel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/private/Models/CategoriesModel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/private/Models/Exceptions/AddQuestionException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/private/Models/Exceptions/AuthException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/private/Models/Exceptions/RegistrationException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/private/Models/FactModel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/private/Models/InfoModel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/private/Views/about_view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/private/Views/account_view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/private/Views/error_message.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/private/Views/facts_view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/private/Views/index_view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/private/Views/news_view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/private/Views/question_view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/private/Views/quick_game.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/private/Views/rulls_view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/private/Views/template_view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/project_igra.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/public_html/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/public_html/css/facts.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/public_html/css/media.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/public_html/css/new-reg.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/public_html/css/news.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/public_html/css/questions.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/public_html/css/quick_game.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/public_html/css/registr.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/public_html/css/style-ind.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/public_html/css/style-ind2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/public_html/html/big_reg.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/public_html/html/new_reg.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/public_html/html/page_questions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/public_html/img/akaba.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/public_html/img/alcohol_cloud.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/public_html/img/avatar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/public_html/img/cat_in_bag.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/public_html/img/column.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/public_html/img/d.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/public_html/img/d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/public_html/img/earth.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/public_html/img/facebook_108044.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/public_html/img/favelli.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/public_html/img/food.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/public_html/img/goog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/public_html/img/home1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/public_html/img/ink.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/public_html/img/instagram_108043.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/public_html/img/lupa.cur" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/public_html/img/mexico.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/public_html/img/mosquito.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/public_html/img/progress.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/public_html/img/salamandra.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/public_html/img/sandglass.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/public_html/img/sport.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/public_html/img/tarantul.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/public_html/img/turtle.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/public_html/img/vk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/public_html/img/vk11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/public_html/img/white_cat.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/public_html/img/ya.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/public_html/img/youtube_37626.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/public_html/img/zurich.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/public_html/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/public_html/js/index_reg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/public_html/js/jquery3.3.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/public_html/js/news.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/public_html/js/quick_game.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/public_html/js/sendAnswer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/public_html/js/sendForm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/public_html/js/sendQuestion.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/public_html/js/show_pwd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/public_html/js/slider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/public_html/js/validate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/public_html/php/categories.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/public_html/php/question_handler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/public_html/php/registration.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/public_html/php/slider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/users.cvs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/vendor/autoload.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/vendor/composer/ClassLoader.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/vendor/composer/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/vendor/composer/autoload_classmap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/vendor/composer/autoload_files.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/vendor/composer/autoload_namespaces.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/vendor/composer/autoload_psr4.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/vendor/composer/autoload_real.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/vendor/composer/autoload_static.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/vendor/composer/installed.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProject/vendor/nikic/fast-route" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyProjectCopy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../fast-order-plugin/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../fast-order-plugin/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mm-loc" beforeDir="false" afterPath="$PROJECT_DIR$/../../mm-loc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/Inerface_Handler/IParamHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/Inerface_Handler/Main_handler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/Inerface_Handler/ParamHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/Inerface_Handler/TxtHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/Inerface_Handler/XmlHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/ajax/account.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/ajax/account_auth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/ajax/account_view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/ajax/auth_form_view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/ajax/js/jQSendForm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/ajax/js/jquery3.3.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/ajax/js/sendForm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/ajax/reg_form_view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/ajax/session/first.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/ajax/session/second.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/classes_object/Class_Pet/Cat.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/classes_object/Class_Pet/Dog.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/classes_object/Class_Pet/Mouse.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/classes_object/Class_Pet/Pat.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/classes_object/Class_Pet/Singleton.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/classes_object/Class_Pet/config.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/classes_object/Class_Pet/human.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/classes_object/Class_Pet/main.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/classes_object/Execute/execute.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/db.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/errors/errors.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/fileSystem/attachFile.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/fileSystem/cookies/cookies.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/fileSystem/data/kindergartens.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/fileSystem/loadFiles.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/fileSystem/part.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/fileSystem/session/first.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/fileSystem/session/second.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/fileSystem/systemFile.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/interfaceDao/Article.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/interfaceDao/ArticleDao.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/interfaceDao/Dao.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/interfaceDao/Main.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/interfaceDao/User.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/interfaceDao/UserDao.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/lesson1/good.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/lesson1/goods.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/lesson1/inter_user.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/lesson1/less3_functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/lesson1/lesson.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/lesson1/lesson2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/lesson9_abstract_class/file" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/comment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/comment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/run.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/src/Socket.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/autoload.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/phpunit.xml.dist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/src/Ratchet/AbstractConnectionDecorator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/src/Ratchet/App.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/src/Ratchet/ComponentInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/src/Ratchet/ConnectionInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/src/Ratchet/Http/CloseResponseTrait.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/src/Ratchet/Http/HttpRequestParser.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/src/Ratchet/Http/HttpServer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/src/Ratchet/Http/HttpServerInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/src/Ratchet/Http/NoOpHttpServerController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/src/Ratchet/Http/OriginCheck.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/src/Ratchet/Http/Router.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/src/Ratchet/MessageComponentInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/src/Ratchet/MessageInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/src/Ratchet/Server/EchoServer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/src/Ratchet/Server/FlashPolicy.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/src/Ratchet/Server/IoConnection.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/src/Ratchet/Server/IoServer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/src/Ratchet/Server/IpBlackList.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/src/Ratchet/Session/Serialize/HandlerInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/src/Ratchet/Session/Serialize/PhpBinaryHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/src/Ratchet/Session/Serialize/PhpHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/src/Ratchet/Session/SessionProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/src/Ratchet/Session/Storage/Proxy/VirtualProxy.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/src/Ratchet/Session/Storage/VirtualSessionStorage.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/src/Ratchet/Wamp/Exception.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/src/Ratchet/Wamp/JsonException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/src/Ratchet/Wamp/ServerProtocol.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/src/Ratchet/Wamp/Topic.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/src/Ratchet/Wamp/TopicManager.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/src/Ratchet/Wamp/WampConnection.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/src/Ratchet/Wamp/WampServer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/src/Ratchet/Wamp/WampServerInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/src/Ratchet/WebSocket/ConnContext.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/src/Ratchet/WebSocket/MessageCallableInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/src/Ratchet/WebSocket/MessageComponentInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/src/Ratchet/WebSocket/WsConnection.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/src/Ratchet/WebSocket/WsServer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/src/Ratchet/WebSocket/WsServerInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/tests/autobahn/bin/fuzzingserver.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/tests/autobahn/fuzzingclient-all.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/tests/autobahn/fuzzingclient-profile.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/tests/autobahn/fuzzingclient-quick.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/tests/bootstrap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/tests/helpers/Ratchet/AbstractMessageComponentTestCase.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/tests/helpers/Ratchet/Mock/Component.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/tests/helpers/Ratchet/Mock/Connection.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/tests/helpers/Ratchet/Mock/ConnectionDecorator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/tests/helpers/Ratchet/Mock/WampComponent.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/tests/helpers/Ratchet/NullComponent.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/tests/helpers/Ratchet/Wamp/Stub/WsWampServerInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/tests/helpers/Ratchet/WebSocket/Stub/WsMessageComponentInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/tests/unit/AbstractConnectionDecoratorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/tests/unit/Http/HttpRequestParserTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/tests/unit/Http/HttpServerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/tests/unit/Http/OriginCheckTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/tests/unit/Http/RouterTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/tests/unit/Server/EchoServerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/tests/unit/Server/FlashPolicyComponentTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/tests/unit/Server/IoConnectionTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/tests/unit/Server/IoServerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/tests/unit/Server/IpBlackListComponentTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/tests/unit/Session/Serialize/PhpHandlerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/tests/unit/Session/SessionComponentTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/tests/unit/Session/Storage/VirtualSessionStoragePDOTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/tests/unit/Wamp/ServerProtocolTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/tests/unit/Wamp/TopicManagerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/tests/unit/Wamp/TopicTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/tests/unit/Wamp/WampConnectionTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/cboden/ratchet/tests/unit/Wamp/WampServerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/composer/ClassLoader.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/composer/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/composer/autoload_classmap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/composer/autoload_files.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/composer/autoload_namespaces.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/composer/autoload_psr4.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/composer/autoload_real.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/composer/autoload_static.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/composer/installed.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/evenement/evenement/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/evenement/evenement/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/evenement/evenement/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/evenement/evenement/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/evenement/evenement/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/evenement/evenement/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/evenement/evenement/doc/00-intro.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/evenement/evenement/doc/01-api.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/evenement/evenement/doc/02-plugin-system.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/evenement/evenement/examples/benchmark-emit-no-arguments.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/evenement/evenement/examples/benchmark-emit-once.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/evenement/evenement/examples/benchmark-emit-one-argument.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/evenement/evenement/examples/benchmark-emit.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/evenement/evenement/examples/benchmark-remove-listener-once.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/evenement/evenement/phpunit.xml.dist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/evenement/evenement/src/Evenement/EventEmitter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/evenement/evenement/src/Evenement/EventEmitterInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/evenement/evenement/src/Evenement/EventEmitterTrait.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/evenement/evenement/tests/Evenement/Tests/EventEmitterTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/evenement/evenement/tests/Evenement/Tests/Listener.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/evenement/evenement/tests/Evenement/Tests/functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/guzzlehttp/psr7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/paragonie/random_compat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/psr/http-message" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/ralouphie/getallheaders/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/ralouphie/getallheaders/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/ralouphie/getallheaders/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/ralouphie/getallheaders/src/getallheaders.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/ratchet/rfc6455/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/ratchet/rfc6455/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/ratchet/rfc6455/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/ratchet/rfc6455/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/ratchet/rfc6455/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/ratchet/rfc6455/phpunit.xml.dist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/ratchet/rfc6455/src/Handshake/ClientNegotiator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/ratchet/rfc6455/src/Handshake/NegotiatorInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/ratchet/rfc6455/src/Handshake/RequestVerifier.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/ratchet/rfc6455/src/Handshake/ResponseVerifier.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/ratchet/rfc6455/src/Handshake/ServerNegotiator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/ratchet/rfc6455/src/Messaging/CloseFrameChecker.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/ratchet/rfc6455/src/Messaging/DataInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/ratchet/rfc6455/src/Messaging/Frame.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/ratchet/rfc6455/src/Messaging/FrameInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/ratchet/rfc6455/src/Messaging/Message.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/ratchet/rfc6455/src/Messaging/MessageBuffer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/ratchet/rfc6455/src/Messaging/MessageInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/ratchet/rfc6455/tests/AbResultsTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/ratchet/rfc6455/tests/ab/clientRunner.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/ratchet/rfc6455/tests/ab/fuzzingclient.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/ratchet/rfc6455/tests/ab/fuzzingserver.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/ratchet/rfc6455/tests/ab/run_ab_tests.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/ratchet/rfc6455/tests/ab/startServer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/ratchet/rfc6455/tests/bootstrap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/ratchet/rfc6455/tests/unit/Handshake/RequestVerifierTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/ratchet/rfc6455/tests/unit/Handshake/ResponseVerifierTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/ratchet/rfc6455/tests/unit/Handshake/ServerNegotiatorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/ratchet/rfc6455/tests/unit/Messaging/FrameTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/ratchet/rfc6455/tests/unit/Messaging/MessageBufferTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/ratchet/rfc6455/tests/unit/Messaging/MessageTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/cache/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/cache/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/cache/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/cache/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/cache/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/cache/phpunit.xml.dist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/cache/src/ArrayCache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/cache/src/CacheInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/cache/tests/ArrayCacheTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/cache/tests/CallableStub.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/cache/tests/TestCase.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/dns/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/dns/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/dns/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/dns/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/dns/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/dns/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/dns/examples/01-one.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/dns/examples/02-concurrent.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/dns/examples/03-cached.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/dns/examples/11-all-ips.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/dns/examples/12-all-types.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/dns/examples/13-reverse-dns.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/dns/examples/91-query-a-and-aaaa.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/dns/examples/92-query-any.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/dns/phpunit.xml.dist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/dns/src/BadServerException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/dns/src/Config/Config.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/dns/src/Config/FilesystemFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/dns/src/Config/HostsFile.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/dns/src/Model/HeaderBag.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/dns/src/Model/Message.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/dns/src/Model/Record.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/dns/src/Protocol/BinaryDumper.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/dns/src/Protocol/Parser.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/dns/src/Query/CachedExecutor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/dns/src/Query/CancellationException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/dns/src/Query/Executor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/dns/src/Query/ExecutorInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/dns/src/Query/HostsFileExecutor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/dns/src/Query/Query.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/dns/src/Query/RecordBag.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/dns/src/Query/RecordCache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/dns/src/Query/RetryExecutor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/dns/src/Query/TimeoutException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/dns/src/Query/TimeoutExecutor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/dns/src/Query/UdpTransportExecutor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/dns/src/RecordNotFoundException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/dns/src/Resolver/Factory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/dns/src/Resolver/Resolver.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/dns/tests/CallableStub.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/dns/tests/Config/ConfigTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/dns/tests/Config/FilesystemFactoryTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/dns/tests/Config/HostsFileTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/dns/tests/Fixtures/etc/resolv.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/dns/tests/FunctionalResolverTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/dns/tests/Model/MessageTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/dns/tests/Protocol/BinaryDumperTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/dns/tests/Protocol/ParserTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/dns/tests/Query/CachedExecutorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/dns/tests/Query/ExecutorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/dns/tests/Query/HostsFileExecutorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/dns/tests/Query/RecordBagTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/dns/tests/Query/RecordCacheTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/dns/tests/Query/RetryExecutorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/dns/tests/Query/TimeoutExecutorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/dns/tests/Query/UdpTransportExecutorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/dns/tests/Resolver/FactoryTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/dns/tests/Resolver/ResolveAliasesTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/dns/tests/Resolver/ResolverTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/dns/tests/TestCase.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/event-loop/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/event-loop/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/event-loop/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/event-loop/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/event-loop/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/event-loop/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/event-loop/examples/01-timers.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/event-loop/examples/02-periodic.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/event-loop/examples/03-ticks.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/event-loop/examples/04-signals.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/event-loop/examples/11-consume-stdin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/event-loop/examples/12-generate-yes.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/event-loop/examples/13-http-client-blocking.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/event-loop/examples/14-http-client-async.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/event-loop/examples/21-http-server.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/event-loop/examples/91-benchmark-ticks.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/event-loop/examples/92-benchmark-timers.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/event-loop/examples/93-benchmark-ticks-delay.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/event-loop/examples/94-benchmark-timers-delay.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/event-loop/examples/95-benchmark-memory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/event-loop/phpunit.xml.dist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/event-loop/src/ExtEvLoop.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/event-loop/src/ExtEventLoop.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/event-loop/src/ExtLibevLoop.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/event-loop/src/ExtLibeventLoop.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/event-loop/src/Factory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/event-loop/src/LoopInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/event-loop/src/SignalsHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/event-loop/src/StreamSelectLoop.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/event-loop/src/Tick/FutureTickQueue.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/event-loop/src/Timer/Timer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/event-loop/src/Timer/Timers.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/event-loop/src/TimerInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/event-loop/tests/AbstractLoopTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/event-loop/tests/CallableStub.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/event-loop/tests/ExtEvLoopTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/event-loop/tests/ExtEventLoopTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/event-loop/tests/ExtLibevLoopTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/event-loop/tests/ExtLibeventLoopTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/event-loop/tests/SignalsHandlerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/event-loop/tests/StreamSelectLoopTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/event-loop/tests/TestCase.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/event-loop/tests/Timer/AbstractTimerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/event-loop/tests/Timer/ExtEvTimerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/event-loop/tests/Timer/ExtEventTimerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/event-loop/tests/Timer/ExtLibevTimerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/event-loop/tests/Timer/ExtLibeventTimerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/event-loop/tests/Timer/StreamSelectTimerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/event-loop/tests/Timer/TimersTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/event-loop/tests/bootstrap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/event-loop/travis-init.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/promise" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/promise-timer/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/promise-timer/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/promise-timer/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/promise-timer/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/promise-timer/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/promise-timer/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/promise-timer/phpunit.xml.dist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/promise-timer/src/TimeoutException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/promise-timer/src/functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/promise-timer/tests/CallableStub.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/promise-timer/tests/FunctionRejectTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/promise-timer/tests/FunctionResolveTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/promise-timer/tests/FunctionTimeoutTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/promise-timer/tests/TestCase.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/promise-timer/tests/TimeoutExceptionTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/socket/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/socket/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/socket/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/socket/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/socket/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/socket/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/socket/examples/01-echo-server.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/socket/examples/02-chat-server.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/socket/examples/03-http-server.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/socket/examples/11-http-client.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/socket/examples/12-https-client.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/socket/examples/21-netcat-client.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/socket/examples/22-http-client.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/socket/examples/91-benchmark-server.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/socket/examples/99-generate-self-signed.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/socket/examples/localhost.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/socket/examples/localhost_swordfish.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/socket/phpunit.xml.dist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/socket/src/Connection.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/socket/src/ConnectionInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/socket/src/Connector.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/socket/src/ConnectorInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/socket/src/DnsConnector.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/socket/src/FixedUriConnector.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/socket/src/LimitingServer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/socket/src/SecureConnector.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/socket/src/SecureServer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/socket/src/Server.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/socket/src/ServerInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/socket/src/StreamEncryption.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/socket/src/TcpConnector.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/socket/src/TcpServer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/socket/src/TimeoutConnector.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/socket/src/UnixConnector.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/socket/src/UnixServer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/socket/tests/ConnectionTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/socket/tests/ConnectorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/socket/tests/DnsConnectorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/socket/tests/FixedUriConnectorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/socket/tests/FunctionalConnectorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/socket/tests/FunctionalSecureServerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/socket/tests/FunctionalTcpServerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/socket/tests/IntegrationTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/socket/tests/LimitingServerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/socket/tests/SecureConnectorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/socket/tests/SecureIntegrationTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/socket/tests/SecureServerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/socket/tests/ServerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/socket/tests/Stub/CallableStub.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/socket/tests/Stub/ConnectionStub.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/socket/tests/Stub/ServerStub.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/socket/tests/TcpConnectorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/socket/tests/TcpServerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/socket/tests/TestCase.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/socket/tests/TimeoutConnectorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/socket/tests/UnixConnectorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/socket/tests/UnixServerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/stream/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/stream/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/stream/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/stream/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/stream/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/stream/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/stream/examples/01-http.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/stream/examples/02-https.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/stream/examples/11-cat.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/stream/examples/91-benchmark-throughput.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/stream/phpunit.xml.dist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/stream/src/CompositeStream.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/stream/src/DuplexResourceStream.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/stream/src/DuplexStreamInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/stream/src/ReadableResourceStream.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/stream/src/ReadableStreamInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/stream/src/ThroughStream.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/stream/src/Util.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/stream/src/WritableResourceStream.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/stream/src/WritableStreamInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/stream/tests/CallableStub.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/stream/tests/CompositeStreamTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/stream/tests/DuplexResourceStreamIntegrationTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/stream/tests/DuplexResourceStreamTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/stream/tests/EnforceBlockingWrapper.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/stream/tests/FunctionalInternetTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/stream/tests/ReadableResourceStreamTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/stream/tests/Stub/ReadableStreamStub.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/stream/tests/TestCase.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/stream/tests/ThroughStreamTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/stream/tests/UtilTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/react/stream/tests/WritableStreamResourceTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/symfony/http-foundation" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/symfony/polyfill-mbstring/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/symfony/polyfill-mbstring/Mbstring.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/symfony/polyfill-mbstring/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/symfony/polyfill-mbstring/Resources/unidata/lowerCase.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/symfony/polyfill-mbstring/Resources/unidata/titleCaseRegexp.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/symfony/polyfill-mbstring/Resources/unidata/upperCase.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/symfony/polyfill-mbstring/bootstrap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/symfony/polyfill-mbstring/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/symfony/polyfill-php70/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/symfony/polyfill-php70/Php70.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/symfony/polyfill-php70/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/symfony/polyfill-php70/Resources/stubs/ArithmeticError.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/symfony/polyfill-php70/Resources/stubs/AssertionError.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/symfony/polyfill-php70/Resources/stubs/DivisionByZeroError.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/symfony/polyfill-php70/Resources/stubs/Error.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/symfony/polyfill-php70/Resources/stubs/ParseError.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/symfony/polyfill-php70/Resources/stubs/SessionUpdateTimestampHandlerInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/symfony/polyfill-php70/Resources/stubs/TypeError.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/symfony/polyfill-php70/bootstrap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/symfony/polyfill-php70/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/socket/vendor/symfony/routing" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/task_inClass/tasks.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-lessons/user.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../php-task" beforeDir="false" afterPath="$PROJECT_DIR$/../../php-task" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form1.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery-3.3.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../symfony-demo" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="413152687">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.63" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="js" value="6" />
+          <entry key="php" value="13" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JavaScript" value="6" />
+          <entry key="PHP" value="13" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="js" value="857" />
+          <entry key="php" value="2538" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JavaScript" value="857" />
+          <entry key="PHP" value="2519" />
+          <entry key="SQL" value="19" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/ajax_db/js/handle_ajax.js" />
+        <option value="$PROJECT_DIR$/ajax_db/handle_form.php" />
+        <option value="$PROJECT_DIR$/ajax_db/index.php" />
+        <option value="$PROJECT_DIR$/ajax_other_page/index.php" />
+        <option value="$PROJECT_DIR$/ajax_other_page/php/db.php" />
+        <option value="$PROJECT_DIR$/ajax_other_page/php/handle_form.php" />
+        <option value="$PROJECT_DIR$/ajax_other_page/js/ajax.js" />
+        <option value="$PROJECT_DIR$/ajax_other_page/php/order_list.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Form_ajax" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Form_ajax" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Form_ajax" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Form_ajax" type="462c0819:PsiDirectoryNode" />
+              <item name="ajax_db" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Form_ajax" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Form_ajax" type="462c0819:PsiDirectoryNode" />
+              <item name="ajax_db" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Form_ajax" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Form_ajax" type="462c0819:PsiDirectoryNode" />
+              <item name="ajax_other_page" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Form_ajax" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Form_ajax" type="462c0819:PsiDirectoryNode" />
+              <item name="ajax_other_page" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Form_ajax" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Form_ajax" type="462c0819:PsiDirectoryNode" />
+              <item name="ajax_other_page" type="462c0819:PsiDirectoryNode" />
+              <item name="php" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Form_ajax" type="b2602c69:ProjectViewProjectNode" />
+              <item name="storeMVC" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Form_ajax" type="b2602c69:ProjectViewProjectNode" />
+              <item name="storeMVC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Form_ajax" type="b2602c69:ProjectViewProjectNode" />
+              <item name="storeMVC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Form_ajax" type="b2602c69:ProjectViewProjectNode" />
+              <item name="storeMVC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Views" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.last.introduce.type" value="VAR" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../storeMVC" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e97342e5-cc62-4f7e-9feb-435c27d3d8d7" name="Default Changelist" comment="" />
+      <created>1564231353145</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564231353145</updated>
+      <workItem from="1564231357187" duration="9112000" />
+      <workItem from="1564255729541" duration="10843000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="19955000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/js/form.js" />
+    <entry file="file://$PROJECT_DIR$/index.php" />
+    <entry file="file://$PROJECT_DIR$/form2.php" />
+    <entry file="file://$PROJECT_DIR$/form1.php" />
+    <entry file="file://$PROJECT_DIR$/ajax_db/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="71" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax_db/handle_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../storeMVC/src/Controllers/GoodsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../storeMVC/src/Views/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax_other_page/php/order_list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-86">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax_other_page/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="44" column="50" selection-start-line="44" selection-start-column="50" selection-end-line="44" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax_db/js/handle_ajax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax_other_page/js/ajax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="20" column="88" selection-start-line="20" selection-start-column="88" selection-end-line="20" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax_other_page/php/handle_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax_other_page/php/db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
